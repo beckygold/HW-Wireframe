@@ -8,31 +8,41 @@ body {
     margin-left: 100px;
 }
 
-header, nav, section, aside, footer {
+header, nav, footer {
     background: #ebebeb;
-    width: 495px;
+    width: 960px;
     padding: 20px;
     margin: 5px;
+    overflow: auto;
 }
 
 nav {
     margin-bottom: 20px;
 }
 
+footer {
+    margin-top: 20px;
+}
+
 section {
-    width: 60%;
+    background:#ebebeb;
+    width: 495px;
+    height: 200px;
 }
 
 aside {
+    background: #ebebeb;
     float: right;
-    width: 40%;
+    width: 495px;
+    height: 200px;
 }
 
 article {
     color: #ebebeb;
     background: #777;
-    width: 495px;
-    overflow: clear;
+    width: 465px;
+    padding: 10px;
+    margin: 5px;
 }
 
 h1, p {

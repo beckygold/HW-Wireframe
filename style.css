@@ -4,15 +4,14 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px; 
-    margin-right: 100px;
-    margin-left: 100px;
+    margin: auto;
 }
 
 header, nav, footer {
     background: #ebebeb;
     width: 960px;
-    padding: 20px;
-    margin: 5px;
+    padding: 30px;
+    margin: 10px;
     overflow: auto;
     text-align: center;
 }
@@ -25,19 +24,24 @@ footer {
     margin-top: 20px;
 }
 
+header {
+    margin-bottom: 5px;
+}
+
 section {
     background:#ebebeb;
     width: 495px;
     height: auto;
     float: left;
     text-align: center;
+    padding: 20px;
 }
 
 aside {
     background: #ebebeb;
     position: relative;
-    left: 500px;
-    width: 40%;
+    left: 550px;
+    width: 48%;
     height: auto;
     text-align: center;
 }
@@ -45,8 +49,8 @@ aside {
 article {
     color: #ebebeb;
     background: #777;
-    width: 465px;
-    padding: 10px;
+    width: 90%;
+    padding: 20px;
     margin: 5px;
 }
 
